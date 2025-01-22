@@ -1,7 +1,7 @@
 {
-  "name": "lab01",
+  "name": "week02",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "examples.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
