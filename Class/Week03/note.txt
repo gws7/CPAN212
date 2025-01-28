@@ -1,0 +1,5 @@
+npm init -y
+npm i express nodemon dotenv
+create a new file ".env"
+create a new file index.js 
+modify package.json with -> "type": "module",
