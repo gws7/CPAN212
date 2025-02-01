@@ -57,6 +57,9 @@ router.get("/calculate/:a/:b/:operation", (req, res)=>{
             result = a / b                 
             }
             break;
+        case "**":
+            result = a ** b
+            break;
         default:
             res.send("Invalid Operation")
             break;
