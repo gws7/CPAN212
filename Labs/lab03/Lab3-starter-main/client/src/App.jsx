@@ -110,7 +110,6 @@ const App = () => {
     <div className="container">
       <p className="message">{message}</p>
 
-      {/* Fetch Single Random Image */}
       <h2>Fetch Single Random Image</h2>
       <button onClick={fetchSingleFile}>Fetch Single File</button>
       {displayImage && (
@@ -120,7 +119,6 @@ const App = () => {
         </div>
       )}
 
-      {/* Upload Single File */}
       <div className="form-container">
         <form onSubmit={handleSubmitSingleFile}>
           <h2>Upload Single File</h2>
@@ -129,7 +127,6 @@ const App = () => {
         </form>
       </div>
 
-      {/* Fetch Multiple Images */}
       <button onClick={fetchMultipleFiles}>Fetch Multiple Files</button>
       <div className="image-gallery">
         {displayImages.length > 0 ? (
@@ -141,7 +138,6 @@ const App = () => {
         )}
       </div>
 
-      {/* Fetch and Save Dog Image */}
       <button onClick={fetchDogImage}>Fetch Dog Image</button>
       {displayDogImage && (
         <div className="image-container">
